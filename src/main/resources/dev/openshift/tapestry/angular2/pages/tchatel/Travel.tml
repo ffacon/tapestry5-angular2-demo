@@ -1,0 +1,40 @@
+<html t:type="LayoutA2Custom"  
+	xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd"
+	xmlns:p="tapestry:parameter">
+
+	<div class="page-header">
+				<h1>Tapestry 5 - Angular 2</h1>
+	</div>
+	<ul class="nav nav-list bs-docs-sidenav">
+		<li><a href="https://github.com/tchatel/angular2-travels-devfest-paris-2016" ><i class="icon-chevron-right"></i>see Thierry Chatel Angular2 demo application, written in TypeScript</a></li>
+	</ul>
+
+
+<script>
+System.config({
+	  packages: {
+    	// meaning [baseURL]/modules/tchatel/travel when no other rules are present
+    	// path is normalized using map and paths configuration
+    		'/modules/tchatel/travel': {
+      			format: 'register',
+      			defaultExtension: 'js',
+      	      
+      			map: {
+      	        	// use local jquery for all jquery requires in this package
+      	        	'jquery': './vendor/local-jquery.js',
+
+      	        	// import '/local/package/custom-import' should route to '/local/package/local/import/file.js'
+      	        	'./custom-import': './local/import/file.js'
+      	      },
+      	}
+    }
+});
+System.import('/modules/tchatel/travel/boot-travel.js')
+	.then(null, console.error.bind(console));
+</script>
+ <body>
+    <travel-app>Loading...</travel-app>
+  </body>
+
+
+</html>
