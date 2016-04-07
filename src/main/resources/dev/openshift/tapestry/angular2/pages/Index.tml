@@ -8,10 +8,13 @@
 		<section id="list" style="padding-top: 30px;">
 			
 			<div class="page-header">
-				<h1>Tapestry5  Angular2</h1>
+				<h1>Tapestry 5 - Angular 2</h1>
 			</div>
 			<ul class="nav nav-list bs-docs-sidenav">
 				<li><a t:type="pagelink" t:page="HelloWorld" ><i class="icon-chevron-right"></i> HelloWorld</a></li>
+			</ul>
+			<ul class="nav nav-list bs-docs-sidenav">
+				<li><a t:type="pagelink" t:page="tchatel/Travel" ><i class="icon-chevron-right"></i> Thierry Chatel : Angular 2 Sample Dev Fest Paris 2016</a></li>
 			</ul>
 			<!--  
 			<ul class="nav nav-list bs-docs-sidenav">
