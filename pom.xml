@@ -4,11 +4,11 @@
 	<groupId>dev.openshift.tapestry.angular2</groupId>
 	<artifactId>tapestry5-angular2-openshift</artifactId>
 	<packaging>war</packaging>
-	<version>0.1.0.0</version>
+	<version>0.1.0-beta-2</version>
 	<name>tapestry5 angular2 demo in Tapestry 5</name>
 	
 	<properties>
-		<tapestry-release-version>5.4.0</tapestry-release-version>
+		<tapestry-release-version>5.4.1</tapestry-release-version>
 		<hibernate-framework-version>3.6.10.Final</hibernate-framework-version>
 		<slf4j-version>1.7.2</slf4j-version>
 		<servlet-api-release-version>2.5</servlet-api-release-version>
@@ -27,7 +27,7 @@
 		<dependency>
 			<groupId>org.got5</groupId>
 			<artifactId>tapestry5-angular2</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
+			<version>0.1.0-beta-2</version>
 		</dependency>
         <!--  HIBERNATE  -->
         <dependency>
