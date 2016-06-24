@@ -4,7 +4,7 @@
 	<groupId>dev.openshift.tapestry.angular2</groupId>
 	<artifactId>tapestry5-angular2-openshift</artifactId>
 	<packaging>war</packaging>
-	<version>0.1.0-beta-2</version>
+	<version>0.1.0-beta-17</version>
 	<name>tapestry5 angular2 demo in Tapestry 5</name>
 	
 	<properties>
@@ -27,7 +27,7 @@
 		<dependency>
 			<groupId>org.got5</groupId>
 			<artifactId>tapestry5-angular2</artifactId>
-			<version>0.1.0-beta-2</version>
+			<version>0.1.0-beta-17</version>
 		</dependency>
         <!--  HIBERNATE  -->
         <dependency>
